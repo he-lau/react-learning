@@ -1,0 +1,7 @@
+REACT
+
+- par Facebook
+- library
+- SPA (Single page app)
+- Composition : architecture composants (component) --> (build) 3 fichiers : index.html, index.js, index.css
+- ES6 + JSX (~similaire XML)

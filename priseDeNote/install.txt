@@ -1,0 +1,17 @@
+- NodeJS
+    - https://nodejs.org/en
+    - node -v
+- NPM
+    - npm -v
+    - npm start : lance le serveur 
+- NPX
+    - npx -v
+    - npm i npx -g
+
+
+- create react app
+    - npx create-react-app <nom de l'app>
+    - https://create-react-app.dev/
+
+- MAJ version de npm : npm install -g npm@latest
+    

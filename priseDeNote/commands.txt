@@ -1,0 +1,16 @@
+- npm 
+    - https://www.npmjs.com/
+    - npm install <nom-lib>
+        - ex : 
+            - npm i lodash
+            - npm i lodash@3.0.0 (@version)
+            - npm i jest --save-dev (ajout lib pour dev cf. package.json)
+            - npm i <nom-lib> -g (installation global ! niveau machine)
+            - npm i cowsay -g  
+    - npm remove <nom-lib> [-g] (suppression)
+    - npm run <nom-script> (lance un script défini cf.package.json)
+    - npm start
+
+
+
+- npx : installation + execution + suppression (lib)
