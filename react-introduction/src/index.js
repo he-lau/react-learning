@@ -12,5 +12,6 @@ const reactRoot = ReactDOM.createRoot(divRoot);
 
 // affichage
 // IMPORTANT : appel composant avec balise
-reactRoot.render(<App></App>);
+//reactRoot.render(<App></App>);
+reactRoot.render(<App/>);
 
