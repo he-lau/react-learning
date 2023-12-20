@@ -1,15 +1,17 @@
 // depuis v16/ 17 function !!!! plus de class
 // norme pascal case
 
+import { AgeCounter } from "./AgeCounter";
 import { Greetings } from "./Greetings";
 
 export function App() {
   // retour nombre, string, array, JSX
   // IMPORTANT : JSX toujours dans un parent !! jamais à la suite
   //return "Hello React !";
+  /*
   return (
     <>
-      <h1>Title</h1>
+      <h1>Title (App JSX)</h1>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
       consequatur in, quam sapiente vitae vero deleniti distinctio esse quos,
       explicabo voluptas dolor. A facere, sint ab rerum ipsa quaerat animi.
@@ -22,8 +24,9 @@ export function App() {
         }}
         // JSX
         image={<img src="https://picsum.photos/200/300"></img>}
+        isSunny={null}
       >
-        <span>Props children</span>
+        <h2>Props children</h2>
         <br />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
@@ -34,6 +37,13 @@ export function App() {
         <br />
         <img src="https://picsum.photos/200/300" alt="" />
       </Greetings>
+    </>
+  );
+  */
+
+  return (
+    <>
+      <AgeCounter />
     </>
   );
   // camelCase pour tous les attributs (onClick, onChange...)
