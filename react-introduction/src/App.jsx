@@ -47,6 +47,10 @@ export function App() {
 
   const a = false;
 
+  function hello(number) {
+    alert("Hello de <App/>" + number);
+  }
+
   return (
     <>
       <div
@@ -56,9 +60,9 @@ export function App() {
           width: 200 + 50,
         }}
       ></div>
-      <Car />
-      <Greetings />
-      <AgeCounter />
+      Je suis {"<App/>"}
+      <button onClick={hello}>click</button>
+      <Car onCarClick={hello} />
     </>
   );
   // camelCase pour tous les attributs (onClick, onChange...)
