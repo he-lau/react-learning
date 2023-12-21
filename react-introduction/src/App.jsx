@@ -2,7 +2,11 @@
 // norme pascal case
 
 import { AgeCounter } from "./AgeCounter";
-import { Greetings } from "./Greetings";
+//import { Greetings } from "./Greetings";
+import { Car } from "./components/Car/Car";
+import { Greetings } from "./components/Greetings/Greetings";
+
+import "./global.css";
 
 export function App() {
   // retour nombre, string, array, JSX
@@ -41,8 +45,19 @@ export function App() {
   );
   */
 
+  const a = false;
+
   return (
     <>
+      <div
+        style={{
+          backgroundColor: a ? "red" : "blue",
+          height: "100px",
+          width: 200 + 50,
+        }}
+      ></div>
+      <Car />
+      <Greetings />
       <AgeCounter />
     </>
   );
