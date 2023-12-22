@@ -1,0 +1,14 @@
+- Si on donne un tableau au composant il vas render chacun des elements (JSX, nombres, strings, null ...)
+--> SAUF objet ! (injection objet dans DOM)
+
+- Attribut key unique necessaire pour jsx
+--> permet la manipulation dans le DOM plus tard
+
+- Boucle : for + (push...) classique
+
+- ES6 : map() :
+--> comme pour php/ python ...
+--> permet d'appliquer un algo à chaque element d'un tableau
+--> Array.map(currentItem,currentItem) => {
+    return ...
+}
