@@ -1,0 +1,34 @@
+- Rappel :
+    - composant re-render lorsque props ou state MAJ
+    --> PROBLEME : si on appel API, requête HTTP chaque fois !
+    --> PROBLEME2 : possibilité de boucle infini avec les states
+
+- useEffect :
+    - useEffect(fonction f,array a)
+        - f : appelé une seule fois au premier render
+        - a : conditions pour que le hook se reexecute ("listeners") sur les var
+
+
+        EXEMPLE :
+
+        import {useEffect, useState} from "react";
+
+        const [number,setNumber] = useState(0);
+
+        useEffect(()=>{
+            console.log("useEffect() est appelé")
+
+            // appelé UNE SEULE fois qd le component est retiré du DOM
+            return() => {
+
+
+            }
+        },[number]);
+
+        return {
+            <div>
+                <button onClick={()=>setNumber(Math.random)}>
+                Click me
+                </button>
+            </div>
+        }

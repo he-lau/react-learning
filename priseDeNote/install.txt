@@ -11,6 +11,7 @@
 
 - create react app
     - npx create-react-app <nom de l'app>
+    - dans le dossier actuel : npx create-react-app .
     - https://create-react-app.dev/
 
 - MAJ version de npm : npm install -g npm@latest
