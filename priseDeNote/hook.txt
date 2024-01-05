@@ -5,7 +5,7 @@
 
 - useEffect :
     - useEffect(fonction f,array a)
-        - f : appelé une seule fois au premier render
+        - f : appelé une seule fois APRES le premier render
         - a : conditions pour que le hook se reexecute ("listeners") sur les var
 
 
@@ -32,3 +32,15 @@
                 </button>
             </div>
         }
+
+
+        - fonction de nettoyage : 
+            - retour useEffect à la suppression du composant + AU DEBUT (react s'assure composant "propre")
+
+            --> utile pour ne pas boucler sur les interval (setinterval)
+            --> clearInterval(intervalId) : nettoyage manuel 
+
+
+
+
+
